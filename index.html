@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+
+    <meta charset="UTF-8" />
+    <title>IHM_Web_Formulaires</title>
+	<link rel="stylesheet" href="monstyle.css"/>
+  </head>
+		<form>
+			<h1>Formulaire de paiement</h1>
+			<p> Les champs obligatoires sont suivis par .*.</p>
+			<h2>Informations de contact</h2>
+			<h3>Qualité :</h3>
+			<input type="radio" name="radio" value="radio">
+			<label>Monsieur
+			</label>
+			<input type="radio" name="radio1" value="radio1">
+			<label>Madame
+			</label>
+			<h3>Nom :*</h3>
+			<input type="text" name="texte" required>
+			<h3>e-mail :*</h3>
+			<input type="text" name="texte1" required>
+			<h3>mot de passe :*</h3>
+			<input type="password" name="monpass" required>
+			<h2>Informations de paiement</h2>
+			<h3>Type de carte :</h3>
+			<select name="carte">
+            <option value="Visa">Visa</option>
+            <option value="Bleue">Bleue</option>
+            <option value="Mastercard">Mastercard</option>
+			</select>
+			<h3>Numéro :*</h3>
+			<input type="text" name="texte2" required>
+			<h3>Validité:*</h3>
+			<input type="text" name="texte3" required>
+			<p>format mm/aa</p>
+			<h2>Valider le paiement</h2>
+			<input type="submit" name="nom" value="Valider">
+		</form>
+		
+		
+		
+		
+		
+		
+		<script src="formulaires.js"></script>
+			
